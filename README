@@ -1,0 +1,21 @@
+=========================
+A Simple Ray Tracing Demo
+=========================
+This program illustrates a simple ray tracer. There are three scene files 
+named scene1.txt, scene2.txt and scene3.txt. After compiling run the program 
+like so
+
+./ray_tracing scene1.txt
+
+
+==========
+COMPILING
+==========
+
+Will compile on linux with just a simple:
+
+make
+
+If, it does not compile check the linker flags in the Makefile and see if it 
+suits your system. You may have to change the include paths for other 
+systems.
